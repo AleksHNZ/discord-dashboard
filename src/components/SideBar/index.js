@@ -8,16 +8,16 @@ const SideBar = () => {
 
         <SideBarIcon icon={<FaFire size="28" />} />
         <Divider />
-        <SideBarIcon icon={<BsPlus size="32" />} />
-        <SideBarIcon icon={<BsFillLightningFill size="20" />} />
-        <SideBarIcon icon={<FaPoo size="20" />} />
+        <SideBarIcon2 icon={<BsPlus size="32" />} />
+        <SideBarIcon3 icon={<BsFillLightningFill size="20" />} />
+        <SideBarIcon4 icon={<FaPoo size="20" />} />
         <Divider />
-        <SideBarIcon icon={<BsGearFill size="22" />} />
+        <SideBarIcon5 icon={<BsGearFill size="22" />} />
     </div>
   );
 };
 
-const SideBarIcon = ({ icon, text = 'Mister ALKP 💡' }) => (
+const SideBarIcon = ({ icon, text = 'Page of Batya' }) => (
   <div className="sidebar-icon group">
     {icon}
     <span class="sidebar-tooltip group-hover:scale-100">
@@ -25,6 +25,44 @@ const SideBarIcon = ({ icon, text = 'Mister ALKP 💡' }) => (
     </span>
   </div>
 );
+
+const SideBarIcon2 = ({ icon, text = 'Mister ALKP ☺️ ' }) => (
+  <div className="sidebar-icon group">
+    {icon}
+    <span class="sidebar-tooltip group-hover:scale-100">
+      {text}
+    </span>
+  </div>
+);
+
+const SideBarIcon3 = ({ icon, text = 'Krunkers' }) => (
+  <div className="sidebar-icon group">
+    {icon}
+    <span class="sidebar-tooltip group-hover:scale-100">
+      {text}
+    </span>
+  </div>
+);
+
+const SideBarIcon4 = ({ icon, text = 'Balmond' }) => (
+  <div className="sidebar-icon group">
+    {icon}
+    <span class="sidebar-tooltip group-hover:scale-100">
+      {text}
+    </span>
+  </div>
+);
+
+const SideBarIcon5 = ({ icon, text = 'Settings' }) => (
+  <div className="sidebar-icon group">
+    {icon}
+    <span class="sidebar-tooltip group-hover:scale-100">
+      {text}
+    </span>
+  </div>
+);
+
+
 
 
 const Divider = () => <hr className="sidebar-hr" />;

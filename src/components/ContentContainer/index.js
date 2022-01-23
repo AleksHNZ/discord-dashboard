@@ -12,35 +12,35 @@ const ContentContainer = () => {
           timestamp='one week ago'
           text={`Hey, guys. Who interested to building some brand new project?`}
         />
-        <Post name='Leon' timestamp='one week ago' text={`Lorem ipsum dolor. `} />
-        <Post name='Jill' timestamp='5 days ago' text={`Lorem.`} />
+        <Post name='Said' timestamp='one week ago' text={`I'm ready. `} />
+        <Post name='Jeyhun' timestamp='5 days ago' text={`No.`} />
         <Post
-          name='Ellie'
+          name='Asif'
           timestamp='4 days ago'
           text={`I want, but not today. Sorry :). `}
         />
         <Post
-          name='Chris'
+          name='Vahid'
           timestamp='4 days ago'
           text={`Sure, why not.`}
         />
         <Post
-          name='Claire'
+          name='Kamran'
           timestamp='2 days ago'
           text={`I'm kinda busy today.`}
         />
         <Post
-          name='Albert'
+          name='Vagif'
           timestamp='22 hours ago'
-          text={`Lorem ipsum dolor sit amet consectetur adipisicing elit. ☺️ `}
+          text={`Brother sorry, I'm with my parents today. ☺️ `}
         />
         <Post
-          name='Rebecca'
+          name='Maksud'
           timestamp='3 hours ago'
           text={`Give me five minutes. I will right back.`}
         />
         <Post
-          name='H.U.N.K'
+          name='Balmond'
           timestamp='Just now'
           text={`Can you say exactly what you want to build?`}
         />
